@@ -1,0 +1,37 @@
+body {
+	font-family: futura;
+}
+#logo {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	display: block;
+}
+
+.visitedlink {
+	color: black;
+	text-decoration: none;
+}
+
+.line {
+	width: 68%;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#contact {
+	text-align: center;
+}
+
+#envelope {
+	padding-right: 20px;
+}
+
+#github {
+	padding-right: 20px;
+}
