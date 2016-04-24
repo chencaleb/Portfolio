@@ -1,0 +1,48 @@
+/*CONTACT ME ICON*/
+.grow {
+	-webkit-animation: 1s grow forwards;
+	-moz-animation: 1s grow forwards;
+	-ms-animation: 1s grow forwards;
+	-o-animation: 1s grow forwards;
+	animation: 1s grow forwards;
+}
+@-webkit-keyframes grow {
+  from, to {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2)
+  }
+}
+@-moz-keyframes grow {
+  from, to {
+    -moz-transform: scale(1);
+  }
+  100% {
+    -moz-transform: scale(1.2)
+  }
+}
+@-ms-keyframes grow {
+  from, to {
+    -ms-transform: scale(1);
+  }
+  100% {
+    -ms-transform: scale(1.2)
+  }
+}
+@-o-keyframes grow {
+  from, to {
+    -o-transform: scale(1);
+  }
+  100% {
+    -o-transform: scale(1.2)
+  }
+}
+@keyframes grow {
+  from, to {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2)
+  }
+}
