@@ -118,6 +118,16 @@ a:hover{
 	text-decoration: underline;;
 }
 
+.zoom-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+.zoom:hover {
+  	-moz-transform: scale(1.2);
+  	-webkit-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
 /*Homepage media queries*/
 @media 
 only screen and (max-width: 1078px),
