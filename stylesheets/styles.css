@@ -1,5 +1,11 @@
 body {
 	font-family: Futura;
+	font-size: 15px;
+}
+
+h3, h5 {
+	color: #FF9800;
+	text-shadow: 2px 2px #CFD8DC;
 	font-weight: bold;
 }
 
@@ -10,11 +16,18 @@ body {
 	display: block;
 }
 
+#jobtitle {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
 .splash {
 	text-align: center;
 	height: 100vh;
 	width: 100vw;
-	margin-top: 10%;
+	background-color: #455A64;
+	color: #CFD8DC;
 }
 
 #view {
@@ -57,74 +70,53 @@ body {
 /* PROJECTS */
 .project {
 	text-align: center;
-	background-color: #eaf5f7;
+	background-color: #607D8B;
 }
 
 .title {
 	padding: 4%;
-	font-size: 3em;
-	color: #0085a1;
-}
-
-#coffeehop1 {
-	width: 100%;
+	font-size: 5em;
+	color: #FFFFFF;
 }
 
 .top-left {
-	background-color: #bc1c48;
+	background-color: #B6B6B6;
 }
 
 .bottom-right {
-	background-color: #1cbc90;
+	background-color: #B6B6B6;
+}
+
+.bottom-left {
+	background-color: #B6B6B6;
 }
 
 .lower {
 	margin-top:-20px;
 }
 
-#livingquarters {
+.flats {
 	width: 100%;
 }
 
-.work-div {
-    text-align: center;
-    background-color: #eaf5f7;
-    display: block;
-
+#block2, #block3, #block6 {
+	padding: 10px 30px;
 }
 
-.work-div .outline-button {
-    margin: 0.83333em auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.outline-button {
-	position: relative;
-	display: block;
-	width: 15.5em;
-	height: 4.15385em;
-	color: transparent;
-	text-align: center;
-	padding: 4%;
-}
+/*Homepage media queries*/
+@media 
+only screen and (max-width: 920px),
+only screen and (max-device-width: 920px)
 
-.outline-button:before {
-	font-style: normal;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-transform: uppercase;
-    line-height: 1.33333em;
-    display: block;
-    /*top: 0;*/
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    border: 4px solid #0085a1;
-    color: #0085a1;
-    text-decoration: none;
-    content: attr(title);
-    text-indent: 0;
-    padding: 10px;
-    margin: 0 auto;
+{
+	
+	.title {
+		font-size: 3em;
+	}
+
+	#block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8 {
+		float: none !important;
+		width: 100vw !important;
+	}
+	
 }
