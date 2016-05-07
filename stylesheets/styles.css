@@ -41,7 +41,7 @@ h3, h5 {
 }
 
 .visitedlink:hover {
-	color: #7f8c8d;
+	color: #FF9800;
 }
 
 .line {
@@ -57,6 +57,10 @@ h3, h5 {
 #contactinfo {
 	text-align: center;
 	margin-bottom: 100px;
+}
+
+#name {
+	font-size: 20px;
 }
 
 #envelope {
