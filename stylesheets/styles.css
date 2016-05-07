@@ -103,9 +103,20 @@ h3, h5 {
 	padding: 10px 30px;
 }
 
+a {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #607D8B;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;;
+}
+
 /*Homepage media queries*/
 @media 
-only screen and (max-width: 920px),
+only screen and (max-width: 1078px),
 only screen and (max-device-width: 920px)
 
 {
