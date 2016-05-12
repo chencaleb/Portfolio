@@ -65,10 +65,12 @@ h3, h5 {
 
 #envelope {
 	padding-right: 20px;
+	text-decoration: none;
 }
 
 #github {
 	padding-right: 20px;
+	text-decoration: none;
 }
 
 /* PROJECTS */
